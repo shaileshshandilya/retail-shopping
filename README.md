@@ -19,7 +19,7 @@ For building and running the application you need:
 5. Run this Query in mysql
 
 ```sql
-insert into online_shopping_db.user_detail(contact_number,email,enabled,first_name,last_name,password,role) values ('9876543210','admin@gmail.com',true,'admin','admin','$2a$10$6UVHQoHhpoYZxBB.k9r.deSLTT0RD1Yk8GdggRywGw0Snr8syRDtG','ADMIN')
+insert into retail_shopping_db.user_detail(contact_number,email,enabled,first_name,last_name,password,role) values ('9876543210','admin@gmail.com',true,'admin','admin','$2a$10$6UVHQoHhpoYZxBB.k9r.deSLTT0RD1Yk8GdggRywGw0Snr8syRDtG','ADMIN')
 ```
 
 **Password = 123456(in encoded Form)**
@@ -40,7 +40,7 @@ insert into online_shopping_db.user_detail(contact_number,email,enabled,first_na
 4. user can add product with qantity  to cart. 
 5.  to make payment click on card (click  on user name right conner). 
 6. view the cart and update the qantity 
-7.click on checkout uption 
+7. click on checkout uption 
 8. now shop staff have to provide details of customer 
 9. once the customer details will provide and submit 
 10. the discounted amount  will be apper based on below criteria 
